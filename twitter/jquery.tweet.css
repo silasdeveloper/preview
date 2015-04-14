@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* twitter ticker */
+#twitter-wrap {
+width: 300px;
+height: auto;
+margin: 0 auto;
+}
+
+.tweet, .query {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 11px;
+color: #fff;
+text-align: center;
+width: 300px;
+height: 70px;
+margin: 0 auto;
+}
+
+.tweet_list {
+list-style: none;
+margin: 0;
+padding: 0;
+overflow-y: hidden;
+background: none;
+}
+
+.tweet_list li {
+overflow-y: auto;
+overflow-x: hidden;
+padding: 0;
+list-style-type: none;
+}
+
+.tweet_list li a {
+color: #fff;
+font-weight: bold;
+}
+
+.tweet_list .tweet_even {
+background: none;
+}
+
+.tweet_list .tweet_avatar {
+padding-right: 0;
+float: left;
+}
+
+.tweet_list .tweet_avatar img {
+vertical-align: middle;
+}
+
+#ticker ul.tweet_list {
+height: 70px;
+overflow-y: hidden;
+}
+
+#ticker .tweet_list li {
+height: 70px;
+}
+
+/* custom */
+#tweets {
+padding: 10px 0 0 0;
+}
+
+#twitter-logo {
+margin: 5px auto;
+width: 30px;
+height: 25px;
+background: url(twitter-logo.png) no-repeat 0 0;
+text-indent: -10000px;
+}
+
+a.logo {
+display: block;
+width: 30px;
+height: 25px;
+text-indent: -10000px;
+}
+
+a.logo:hover {
+}
+
+.tweet_loading {
+margin: 5px auto;
+width: 24px;
+height: 24px;
+background: none;
+text-indent: -10000px;
+}
